@@ -1,0 +1,3 @@
+build --aspects //tools:aspects.bzl%mypy_aspect
+build --output_groups=+mypy
+

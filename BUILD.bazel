@@ -1,6 +1,8 @@
 load("@rules_proto_grpc_python//:defs.bzl", "python_proto_library")
 load("@protobuf//bazel:proto_library.bzl", "proto_library")
 
+exports_files(["mypy.ini"])
+
 proto_library(
     name = "helloworld_proto",
     srcs = ["helloworld.proto"],
