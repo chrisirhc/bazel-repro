@@ -10,6 +10,8 @@ proto_library(
 
 python_proto_library(
     name = "helloworld_python_proto",
+    # Generate .pyi files for the Python proto library.
+    generate_pyi = True,
     protos = [":helloworld_proto"],
 )
 
