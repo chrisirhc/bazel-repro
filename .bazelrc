@@ -1,4 +1,0 @@
-common --enable_platform_specific_config
-common --downloader_config=common_downloader.cfg
-common:linux --downloader_config=linux_downloader.cfg
-common:macos --downloader_config=macos_downloader.cfg
