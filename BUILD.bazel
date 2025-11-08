@@ -10,3 +10,9 @@ python_proto_library(
     name = "helloworld_python_proto",
     protos = [":helloworld_proto"],
 )
+
+py_binary(
+    name = "helloworld_example",
+    srcs = ["helloworld_example.py"],
+    deps = [":helloworld_python_proto"],
+)
