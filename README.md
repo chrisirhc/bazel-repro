@@ -1,6 +1,6 @@
 # Reproduction
 
-On a Linux machine:
+With pyi output turned on:
 ```sh
  % bazel build ...
 INFO: Analyzed 4 targets (0 packages loaded, 8 targets configured).
